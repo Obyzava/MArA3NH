@@ -70,6 +70,7 @@ header a {
     font-weight: bold;
 }
 
+/* Контейнер для иконки и подписи */
 .logo-container {
     display: flex;
     flex-direction: column;
@@ -77,9 +78,10 @@ header a {
     margin-bottom: 20px;
 }
 
+/* Стили для иконки */
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -90,6 +92,7 @@ header a {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Подпись под иконкой */
 .logo-caption {
     font-size: 14px;
     color: #ddd;
@@ -118,6 +121,7 @@ header a {
     animation: fadeIn 1.5s ease;
 }
 
+/* Подпись для разделов */
 .section-caption {
     font-size: 18px;
     color: #777;
@@ -139,6 +143,7 @@ header a {
     animation: fadeIn 1s ease;
 }
 
+/* Сетка для услуг */
 .services-grid {
     display: flex;
     justify-content: space-around;
@@ -146,6 +151,7 @@ header a {
     gap: 20px;
 }
 
+/* Карточка услуги */
 .service-item {
     background: #fff;
     padding: 20px;
@@ -173,6 +179,7 @@ header a {
     color: #666;
 }
 
+/* Подпись для услуги */
 .service-caption {
     font-size: 14px;
     color: #555;
@@ -200,6 +207,7 @@ footer a {
     font-weight: bold;
 }
 
+/* Подпись в подвале */
 .footer-caption {
     font-size: 12px;
     color: #aaa;
